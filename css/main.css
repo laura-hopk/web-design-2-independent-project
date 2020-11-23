@@ -86,7 +86,7 @@ a:hover {
 .caption {
   font-size: 11px;
   position: absolute;
-  top: 60em;
+  top: 40em;
   left: 12px;
   width: 100%;
   margin: 0;
@@ -194,7 +194,7 @@ h4 {
 
   .caption {
     font-size: 12px;
-    top: 49em;
+    top: 70em;
     left: 30px;
   }
 
