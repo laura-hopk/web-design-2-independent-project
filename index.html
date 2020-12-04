@@ -10,6 +10,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="skip-links">
+    <a href="#main">Jump to main content</a>
+    <a href="#contentinfo">Jump to contact information</a>
+  </div>
+
 
   <div class="top" aria-hidden="true">
     <img class="logo" src="images/gnome-logo.png" alt="gnome">
@@ -30,7 +35,7 @@
     </div>
   </header>
 
-  <main role="main">
+  <main role="main" id="main" tabindex="0">
     <article>
       <div class="why">
         <h2>Why Gnomes?</h2>
@@ -39,7 +44,7 @@
     </article>
   </main>
 
-  <footer role="contentinfo">
+  <footer role="contentinfo" id="contentinfo" tabindex="1">
     <div class="col1">
       <h3>Social Media</h3>
       <p class="footer-body">Come see what we are up to from around the world!</p>
