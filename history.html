@@ -14,7 +14,7 @@
     <h1>All About Gnomes</h1>
   </div>
 
-  <header>
+  <header role="banner">
     <nav>
       <ul class="nav">
         <li class="home"><a href="index.html">Home</a></li>
@@ -22,13 +22,12 @@
         <li class="plant"><a href="plants.html">What to Plant</a></li>
       </ul>
     </nav>
+    <div class="banner">
+      <img class="image-flex" aria-label="picture of a gnome in a garden with a shovel" src="images/gnome3.jpg" alt="Gnome with a shovel">
+    </div>
   </header>
 
-  <main>
-    <div class="banner">
-      <img class="image-flex" src="images/gnome3.jpg" alt="Gnome with a shovel">
-    </div>
-
+  <main role="main">
     <div class="where">
       <h2>Where are they from?</h2>
       <p class="home-body">Gnomes actually originated from the United Kingdom. Their creator, Sir Charles Isham, brought 21 Terra-cotta figures back from a trip to Germany, and he placed them around the gardens of his home. Eventually these iconic figures started showing up around the United States, first arriving there with Christopher Columbus in 1492.</p>
@@ -43,21 +42,21 @@
     </div>
 
   </main>
-    <footer>
-      <div class="col1">
-      <h4>Social Media</h4>
+  <footer role="contentinfo">
+    <div class="col1">
+      <h3>Social Media</h3>
       <p class="footer-body">Come see what we are up to from around the world!</p>
-      <ul class="footer-list">
-        <li><img class="social1" src="images/instagram.png" alt="instagram"></li>
-        <li><img class="social2" src="images/facebook.png" alt="facebook"></li>
-        <li><img class="social1" src="images/pinterest.png" alt="pinterest"></li>
+      <ul class="footer-list" aria-label="a list of our social media">
+        <li><img class="social1" aria-label="instagram" src="images/instagram.png" alt="instagram"></li>
+        <li><img class="social2" aria-label="facebook" src="images/facebook.png" alt="facebook"></li>
+        <li><img class="social1" aria-label="pinterest" src="images/pinterest.png" alt="pinterest"></li>
       </ul>
-      </div>
-      <div class="col2">
-        <h4>Contact</h4>
-        <p class="footer-body">If you want more information about gnomes, go to your garden and speak to them. They listen and sometimes they speak back. You just gotta be really patient.</p>
-      </div>
-    </footer>
+    </div>
+    <div class="col2">
+      <h3>Contact</h3>
+      <p class="footer-body">If you want more information about gnomes, go to your garden and speak to them. They listen and sometimes they speak back. You just gotta be really patient.</p>
+    </div>
+  </footer>
 
 </body>
 </html>

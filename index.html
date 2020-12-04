@@ -9,13 +9,13 @@
 </head>
 <body>
 
-  <div class="top">
+  <div class="top" aria-hidden="true">
     <img class="logo" src="images/gnome-logo.png" alt="gnome">
     <h1>All About Gnomes</h1>
   </div>
 
-  <header class="banner">
-    <nav>
+  <header class="banner" role="banner">
+    <nav role="navigation">
       <ul class="nav">
         <li class="home"><a href="index.html">Home</a></li>
         <li class="history"><a href="history.html">History of Gnomes</a></li>
@@ -28,7 +28,7 @@
     </div>
   </header>
 
-  <main>
+  <main role="main">
     <article>
       <div class="why">
         <h2>Why Gnomes?</h2>
@@ -37,14 +37,14 @@
     </article>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <div class="col1">
       <h3>Social Media</h3>
       <p class="footer-body">Come see what we are up to from around the world!</p>
-      <ul class="footer-list">
-        <li><img class="social1" src="images/instagram.png" alt="instagram"></li>
-        <li><img class="social2" src="images/facebook.png" alt="facebook"></li>
-        <li><img class="social1" src="images/pinterest.png" alt="pinterest"></li>
+      <ul class="footer-list" aria-label="a list of our social media">
+        <li><img class="social1" aria-label="instagram" src="images/instagram.png" alt="instagram"></li>
+        <li><img class="social2" aria-label="facebook" src="images/facebook.png" alt="facebook"></li>
+        <li><img class="social1" aria-label="pinterest" src="images/pinterest.png" alt="pinterest"></li>
       </ul>
     </div>
     <div class="col2">
