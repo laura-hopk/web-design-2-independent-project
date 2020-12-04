@@ -23,6 +23,15 @@ body {
   top: 0;
 }
 
+a:focus {
+  outline: 3px solid #222;
+}
+
+.hidden {
+  position: absolute;
+  top: -3em;
+}
+
 .logo {
   display: block;
   width: 70px;
@@ -43,14 +52,14 @@ h1 {
 
 .top {
   display: grid;
-  grid-template-rows: 1fr, 1fr;
+  grid-template-rows: 1fr 1fr;
   background-color: #db2e2e;
 }
 
 .nav {
   list-style-type: none;
   display: grid;
-  grid-template-rows: 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   background-color: #bf2828;
   margin: 0;
   padding: 1em;
@@ -93,7 +102,7 @@ a:hover {
 }
 
 .caption {
-  font-size: 0.6875rem;
+  font-size: .6875rem;
   position: absolute;
   top: 40em;
   left: 12px;
@@ -105,7 +114,7 @@ a:hover {
 
 h2 {
   text-align: center;
-  font-family: "Abril Fatface"
+  font-family: "Abril Fatface";
 }
 
 .home-body {
@@ -121,12 +130,12 @@ footer {
 }
 
 h3 {
- margin: 0;
- font-family: "Abril Fatface"
+  margin: 0;
+  font-family: "Abril Fatface";
 }
 
 .footer-body {
-  font-size: 0.75rem;
+  font-size: .75rem;
 }
 
 .footer-list {
@@ -187,13 +196,13 @@ h3 {
 
   .top {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
 
   .nav {
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
 
@@ -223,7 +232,7 @@ h3 {
   }
 
   .caption {
-    font-size: 0.75rem;
+    font-size: .75rem;
     top: 70em;
     left: 30px;
   }
@@ -262,9 +271,11 @@ h3 {
 }
 
 @media only screen and (min-width: 60em) {
+
   .home-body {
     text-align: center;
     margin-right: 20em;
     margin-left: 20em;
   }
+
 }
