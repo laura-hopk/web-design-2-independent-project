@@ -295,4 +295,20 @@ h3 {
      color: #fff;
    }
 
+   .top {
+     background-color: #a80014;
+   }
+
+   .nav {
+     background-color: #940012;
+   }
+
+   h2 {
+     background-color: #a80014;
+   }
+
+   footer {
+     background-color: #4f000b;
+   }
+
  }
