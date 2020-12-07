@@ -105,10 +105,10 @@ a:hover {
 h2 {
   text-align: center;
   font-family: "Abril Fatface";
-  background-color: #bf2828;
+  background-color: #eee;
   margin: 0;
   padding: .5em;
-  color: #fff;
+  color: #000;
 }
 
 .home-body {
@@ -120,7 +120,11 @@ h2 {
 footer {
   background-color: #690000;
   color: #fff;
-  padding: 15px;
+  padding: 20px;
+}
+
+.footer-list {
+  padding: 0;
 }
 
 h3 {
@@ -141,7 +145,7 @@ h3 {
 .social1,
 .social2,
 .social3 {
-  width: 25px;
+  width: 34px;
 }
 
 .card {
@@ -246,7 +250,9 @@ h3 {
   footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 1em;
+    column-gap: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
   }
 
   .col1 {
@@ -285,30 +291,31 @@ h3 {
 
 }
 
- @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 
-   body {
-     background-color: #222;
-   }
+  body {
+    background-color: #222;
+  }
 
-   .home-body {
-     color: #fff;
-   }
+  .home-body {
+    color: #fff;
+  }
 
-   .top {
-     background-color: #a80014;
-   }
+  .top {
+    background-color: #a80014;
+  }
 
-   .nav {
-     background-color: #940012;
-   }
+  .nav {
+    background-color: #940012;
+  }
 
-   h2 {
-     background-color: #a80014;
-   }
+  h2 {
+    background-color: #111;
+    color: #fff;
+  }
 
-   footer {
-     background-color: #4f000b;
-   }
+  footer {
+    background-color: #4f000b;
+  }
 
- }
+}
