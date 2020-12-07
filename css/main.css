@@ -36,7 +36,7 @@ a:focus {
   display: block;
   width: 70px;
   grid-row: 1;
-  padding-top: 1em;
+  padding-top: 0;
   align-self: center;
   justify-self: center;
 }
@@ -45,6 +45,7 @@ h1 {
   grid-row: 2;
   align-self: center;
   justify-self: center;
+  text-align: center;
   font-family: "Abril Fatface";
   font-size: 2rem;
   margin-top: 0;
@@ -101,17 +102,6 @@ a:hover {
   position: relative;
 }
 
-.caption {
-  font-size: .6875rem;
-  position: absolute;
-  top: 40em;
-  left: 12px;
-  width: 100%;
-  margin: 0;
-  padding: .5em;
-  color: #fff;
-}
-
 h2 {
   text-align: center;
   font-family: "Abril Fatface";
@@ -165,6 +155,7 @@ h3 {
 .flower-name {
   text-align: left;
   margin: 0;
+  padding-top: .75em;
 }
 
 .about-flowers {
@@ -239,8 +230,8 @@ h3 {
 
   .home-body {
     text-align: center;
-    margin-right: 10em;
-    margin-left: 10em;
+    margin-right: 30em;
+    margin-left: 30em;
   }
 
   footer {
@@ -274,8 +265,8 @@ h3 {
 
   .home-body {
     text-align: center;
-    margin-right: 20em;
-    margin-left: 20em;
+    margin-right: 25em;
+    margin-left: 25em;
   }
 
 }
